@@ -1,0 +1,17 @@
+{
+    "productos": [
+        {"column_name": "id", "data_type": "integer", "column_description": "It's the id of the product"}, 
+        {"column_name": "nombre", "data_type": "character varying", "column_description": "It's the name of the product"}, 
+        {"column_name": "precio_unitario", "data_type": "integer", "column_description": "It's the price per unit of the product"}
+    ], 
+    "ventas": [
+        {"column_name": "id", "data_type": "integer", "column_description": "It's the id of a sale made to a customer "}, 
+        {"column_name": "id_producto", "data_type": "integer", "column_description": "It's the product id that was purchades"}, 
+        {"column_name": "cantidad", "data_type": "integer", "column_description": "its how many of the product where made"}, 
+        {"column_name": "fecha_venta", "data_type": "date", "column_description": "its when the purchase was made"}, 
+        {"column_name": "id_cliente", "data_type": "integer", "column_description": "its the id of the customer that bought the product"}], 
+    "clientes": [
+        {"column_name": "id", "data_type": "integer", "column_description": "its the id of the customer"}, 
+        {"column_name": "nombre", "data_type": "character varying", "column_description": "its the name of the customer"}
+    ]
+}
